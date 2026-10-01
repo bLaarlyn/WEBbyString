@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="HIMATIF UNTIDAR - Himpunan Mahasiswa Teknologi Informasi Universitas Tidar">
+
+    <title>HIMATIF UNTIDAR — Teknologi Informasi</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- ICON -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <!-- ICON -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- CSS -->
+    <style>
+       
+.section,
+.contact-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.section::before,
+.contact-section::before {
+    content: "";
+    position: absolute;
+
+    width: 650px;
+    height: 650px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-image: url("assets/images/14. LOGO HIMATIF.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    opacity: 0.055;
+
+    pointer-events: none;
+    z-index: 0;
+}
+
+.section > *,
+.contact-section > * {
+    position: relative;
+    z-index: 1;
+}
+    </style>
+
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div class="loader" id="loader">
+        <div class="loader-symbol">H</div>
+        <div class="loader-line"></div>
+        <span>HIMATIF UNTIDAR</span>
+    </div>
+
+
+    <!-- SCROLL PROGRESS -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+
+        <div class="container nav-wrapper">
+
+            <a href="#home" class="logo">
+
+                <div class="logo-box">
+                    <img
+                        src="assets/images/14. LOGO HIMATIF.png"
+                        alt="Dokumentasi HIMATIF UNTIDAR">
+                </div>
+
+                <div class="logo-text">
+                    <strong>HIMATIF</strong>
+                    <span>UNTIDAR</span>
+                </div>
+
+            </a>
+
+
+            <nav class="navigation" id="navigation">
+
+                <a href="#home" class="nav-link active">
+                    Home
+                </a>
+
+                <a href="#profil" class="nav-link">
+                    Profil
+                </a>
+
+                <a href="#visi-misi" class="nav-link">
+                    Visi Misi
+                </a>
+
+                <a href="#struktur" class="nav-link">
+                    Struktur
+                </a>
+
+                <a href="#program" class="nav-link">
+                    Program
+                </a>
+
+                <a href="#dokumentasi" class="nav-link">
+                    Dokumentasi
+                </a>
+
+                <a href="#kontak" class="nav-button">
+                    Kontak
+                </a>
+
+            </nav>
+
+
+            <button class="mobile-menu" id="mobileMenu">
+                <i data-lucide="menu"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-grid"></div>
+
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
+
+
+            <div class="container hero-layout">
+
+                <div class="hero-content">
+
+                    <div class="eyebrow reveal">
+
+                        <span></span>
+
+                        HIMPUNAN MAHASISWA
+                        TEKNOLOGI INFORMASI
+
+                    </div>
+
+
+                    <h1 class="hero-title reveal">
+
+                        Bergerak.
+                        <span>Berkolaborasi.</span>
+                        Berdampak.
+
+                    </h1>
+
+
+                    <p class="hero-description reveal">
+
+                        HIMATIF UNTIDAR menjadi ruang bagi mahasiswa
+                        Teknologi Informasi untuk berkembang,
+                        berkolaborasi, dan memberikan kontribusi nyata.
+
+                    </p>
+
+
+                    <div class="hero-buttons reveal">
+
+                        <a href="#profil" class="btn primary">
+
+                            Kenal HIMATIF
+
+                            <i data-lucide="arrow-up-right"></i>
+
+                        </a>
+
+
+                        <a href="#dokumentasi" class="btn secondary">
+
+                            Lihat Dokumentasi
+
+                            <i data-lucide="images"></i>
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-info reveal">
+                    <div>
+                        <strong>UNTIDAR</strong>
+                        <span>Universitas Tidar</span>
+                    </div>
+
+                    <div class="vertical-line"></div>
+
+                    <div>
+                        <strong>FT</strong>
+                        <span>Fakultas Teknik</span>
+                    </div>
+
+                        <div class="vertical-line"></div>
+
+                        <div>
+
+                            <strong>TI</strong>
+
+                            <span>Teknologi Informasi</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FOTO HERO -->
+
+                <div class="hero-photo reveal">
+
+                    <div class="photo-frame">
+
+                        <img
+                            src="assets/images/15. info Logo HIMATIF 2.png"
+                            alt="Dokumentasi HIMATIF UNTIDAR">
+
+                        <div class="photo-gradient"></div>
+
+
+                        <div class="photo-caption">
+
+                            <span>HIMATIF UNTIDAR</span>
+
+                            <strong>
+                                Grow Together.
+                            </strong>
+
+                            <small>
+                                Create Impact.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================================================
+             MARQUEE
+        ====================================================== -->
+
+        <div class="marquee">
+
+            <div class="marquee-track">
+
+                <span>TECHNOLOGY</span>
+                <b>✦</b>
+
+                <span>COLLABORATION</span>
+                <b>✦</b>
+
+                <span>COMMUNITY</span>
+                <b>✦</b>
+
+                <span>INNOVATION</span>
+                <b>✦</b>
+
+                <span>IMPACT</span>
+                <b>✦</b>
+
+                <span>TECHNOLOGY</span>
+                <b>✦</b>
+
+                <span>COLLABORATION</span>
+                <b>✦</b>
+
+            </div>
+
+        </div>
+
+
+        <!-- =====================================================
+             PROFIL
+        ====================================================== -->
+
+        <section class="section" id="profil">
+
+            <div class="container">
+
+                <div class="section-head">
+                    <div class="section-index">
+                        01 / PROFIL
+                </div>
+
+                <div>
+                    <span class="kicker">
+                        WHO WE ARE
+                    </span>
+
+                    <h2>
+                        Ruang untuk
+                        <em>bertumbuh bersama.</em>
+                    </h2>
+                </div>
+            </div>
+
+            <div class="profile-layout">
+                <div class="profile-photo reveal">
+                    <img
+                        src="assets/images/16. info Logo HIMATIF 3.png"
+                        alt="Profil HIMATIF UNTIDAR">
+                </div>
+
+                <div class="profile-text reveal">
+
+                    <p class="profile-big">
+
+                        HIMATIF merupakan wadah mahasiswa
+                        Teknologi Informasi Universitas Tidar
+                        untuk berkembang, berorganisasi,
+                        membangun relasi, dan menciptakan
+                        kontribusi bagi lingkungan kampus.
+                    </p>
+
+                    <p>
+                        Organisasi ini menjadi ruang bagi mahasiswa
+                        untuk mengembangkan kemampuan akademik
+                        maupun non-akademik melalui kegiatan,
+                        kolaborasi, pengembangan sumber daya,
+                        advokasi, minat dan bakat, hubungan
+                        masyarakat, serta kewirausahaan.
+                    </p>
+
+                    <div class="statistics">
+
+                        <div>
+                            <strong>07</strong>
+                            <span>Divisi / Biro</span>
+                        </div>
+
+                        <div>
+                            <strong>01</strong>
+                            <span>Keluarga</span>
+                        </div>
+
+                        <div>
+                            <strong>∞</strong>
+                            <span>Possibilities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             VISI MISI
+        ====================================================== -->
+
+        <section class="section dark-section" id="visi-misi">
+            <div class="container">
+                <div class="section-head">
+                    <div class="section-index">
+                        02 / VISION & MISSION
+                    </div>
+
+                    <div>
+                        <span class="kicker">
+                            VISI & MISI
+                        </span>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="vm-grid">
+                        <div class="vm-photo">
+                            <img 
+                                src="assets/images/12. VISI HIMATIF.png"
+                                alt="Visi HIMATIF">
+                        </div>
+
+                        <div class="vm-photo">
+                            <img 
+                                src="assets/images/13. MISI HIMATIF.png"
+                                alt="Misi HIMATIF">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             STRUKTUR
+        ====================================================== -->
+
+        <section class="section" id="struktur">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <div class="section-index">
+                        03 / ORGANIZATION
+                    </div>
+
+                    <div>
+
+                        <span class="kicker">
+                            OUR PEOPLE
+                        </span>
+
+                        <h2>
+                            Orang-orang di balik
+                            <em>gerakan HIMATIF.</em>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <!-- KETUA -->
+
+                <div class="leaders">
+
+                    <article class="leader reveal">
+
+                        <div class="leader-photo">
+
+                            <img
+                                src="assets/images/1. Ketua.png"
+                                alt="Ketua Umum HIMATIF">
+
+                        </div>
+
+                        <div class="leader-info">
+
+                            <span>KETUA UMUM</span>
+
+                            <h3>
+                                Naufal Miftakhul Siddiq
+                            </h3>
+
+                            <p>
+                                HIMATIF UNTIDAR
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="leader reveal">
+
+                        <div class="leader-photo">
+
+                            <img
+                                src="assets/images/2. Wakil Ketua.png"
+                                alt="Ketua Umum HIMATIF">
+
+                        </div>
+
+                        <div class="leader-info">
+
+                            <span>WAKIL KETUA UMUM</span>
+
+                            <h3>
+                                Novela Eka Saputri
+                            </h3>
+
+                            <p>
+                                HIMATIF UNTIDAR
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <!-- SEKRETARIS / BENDAHARA -->
+
+                <div class="core">
+
+                    <article class="core-card reveal">
+
+                        <span>SEKRETARIS UMUM</span>
+
+                        <h3>
+                            Hanif Abdilah
+                        </h3>
+                        <h3>
+                            Muhammad Syafiq Azizi
+                        </h3>
+
+                    </article>
+
+
+                    <article class="core-card reveal">
+
+                        <span>BENDAHARA UMUM</span>
+
+                        <h3>
+                            Nabilla Dwi Putri
+                        </h3>
+                        <h3>
+                            Faauzan Fahmi
+                        </h3>
+
+                    </article>
+
+                </div>
+
+
+                <div class="division-heading">
+                    DIVISI & BIRO
+                </div>
+
+
+                <div class="division-grid">
+
+                    <article class="division reveal">
+
+                        <div class="division-icon">
+                            <i data-lucide="radio"></i>
+                        </div>
+
+                        <div>
+
+                            <span>KESKOMINFO</span>
+
+                            <h3>
+                                Ahmada Maulana
+                            </h3>
+
+                            <p>
+                                Wakil: Muhaammad Andra
+                            </p>
+
+                        </div>
+
+                        <b>01</b>
+
+                    </article>
+
+
+                    <article class="division reveal">
+
+                        <div class="division-icon">
+                            <i data-lucide="graduation-cap"></i>
+                        </div>
+
+                        <div>
+
+                            <span>PSDM</span>
+
+                            <h3>
+                                Nabila Syafiqah Zahran Firlina
+                            </h3>
+
+                            <p>
+                                Wakil: Falikha Sulfiyah
+                            </p>
+
+                        </div>
+
+                        <b>02</b>
+
+                    </article>
+
+
+                    <article class="division reveal">
+
+                        <div class="division-icon">
+                            <i data-lucide="book-open"></i>
+                        </div>
+
+                        <div>
+
+                            <span>AKADEMIK</span>
+
+                            <h3>
+                                Dafa Falah
+                            </h3>
+
+                            <p>
+                                Wakil: Navista Andara Putri
+                            </p>
+
+                        </div>
+
+                        <b>03</b>
+
+                    </article>
+
+
+                    <article class="division reveal">
+
+                        <div class="division-icon">
+                            <i data-lucide="sparkles"></i>
+                        </div>
+
+                        <div>
+
+                            <span>MIKAT</span>
+
+                            <h3>
+                                Ilyasa Abiyyu
+                            </h3>
+
+                            <p>
+                                Wakil: Akhnaz Malik
+                            </p>
+
+                        </div>
+
+                        <b>04</b>
+
+                    </article>
+
+
+                    <article class="division reveal">
+
+                        <div class="division-icon">
+                            <i data-lucide="megaphone"></i>
+                        </div>
+
+                        <div>
+
+                            <span>SOSHUM</span>
+
+                            <h3>
+                                Ilham Khalid P.A
+                            </h3>
+
+                            <p>
+                                Wakil: Galang Dwi S.
+                            </p>
+
+                        </div>
+
+                        <b>05</b>
+
+                    </article>
+
+
+                    <article class="division reveal">
+
+                        <div class="division-icon">
+                            <i data-lucide="scale"></i>
+                        </div>
+
+                        <div>
+
+                            <span>ADVOKASTRAT</span>
+
+                            <h3>
+                                Zurich Sabil
+                            </h3>
+
+                            <p>
+                                Wakil: Mayza Luthfi
+                            </p>
+
+                        </div>
+
+                        <b>06</b>
+
+                    </article>
+
+
+                    <article class="division reveal">
+
+                        <div class="division-icon">
+                            <i data-lucide="store"></i>
+                        </div>
+
+                        <div>
+
+                            <span>KEWIRAUSAHAAN</span>
+
+                            <h3>
+                                Zulfa Nashihin
+                            </h3>
+
+                            <p>
+                                Wakil: Amsyal Ikhsan
+                            </p>
+
+                        </div>
+
+                        <b>07</b>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PROGRAM KERJA
+        ====================================================== -->
+
+        <section class="section dark-section" id="program">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <div class="section-index">
+                        04 / PROGRAM
+                    </div>
+
+                    <div>
+
+                        <span class="kicker">
+                            WHAT WE DO
+                        </span>
+
+                        <h2>
+                            Dari ide menjadi
+                            <em>aksi nyata.</em>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="program-grid">
+
+                    <article class="program program-feature reveal">
+
+                        <div class="program-number">
+                            01
+                        </div>
+
+                        <i data-lucide="book-open"></i>
+
+                        <span>AKADEMIK</span>
+
+                        <h3>
+                            Academic Growth
+                        </h3>
+
+                        <p>
+                            Mendorong pengembangan wawasan dan
+                            kemampuan akademik mahasiswa Teknologi Informasi.
+                        </p>
+
+                    </article>
+
+
+                    <article class="program reveal">
+
+                        <div class="program-number">
+                            02
+                        </div>
+
+                        <i data-lucide="users"></i>
+
+                        <span>PSDM</span>
+
+                        <h3>
+                            Human Development
+                        </h3>
+
+                        <p>
+                            Mengembangkan kapasitas, karakter,
+                            dan kemampuan mahasiswa.
+                        </p>
+
+                    </article>
+
+
+                    <article class="program reveal">
+
+                        <div class="program-number">
+                            03
+                        </div>
+
+                        <i data-lucide="palette"></i>
+
+                        <span>MIKAT</span>
+
+                        <h3>
+                            Interest & Talent
+                        </h3>
+
+                        <p>
+                            Menjadi ruang untuk mengembangkan
+                            minat, bakat, dan kreativitas.
+                        </p>
+
+                    </article>
+
+
+                    <article class="program reveal">
+
+                        <div class="program-number">
+                            04
+                        </div>
+
+                        <i data-lucide="globe-2"></i>
+
+                        <span>SOSHUM</span>
+
+                        <h3>
+                            Connection
+                        </h3>
+
+                        <p>
+                            Membangun hubungan dan komunikasi
+                            dengan berbagai pihak.
+                        </p>
+
+                    </article>
+
+
+                    <article class="program reveal">
+
+                        <div class="program-number">
+                            05
+                        </div>
+
+                        <i data-lucide="shield-check"></i>
+
+                        <span>ADVOKASTRAT</span>
+
+                        <h3>
+                            Student Voice
+                        </h3>
+
+                        <p>
+                            Menjadi ruang penyampaian aspirasi
+                            mahasiswa Teknologi Informasi.
+                        </p>
+
+                    </article>
+
+
+                    <article class="program reveal">
+
+                        <div class="program-number">
+                            06
+                        </div>
+
+                        <i data-lucide="briefcase-business"></i>
+
+                        <span>KEWIRAUSAHAAN</span>
+
+                        <h3>
+                            Entrepreneurship
+                        </h3>
+
+                        <p>
+                            Mendorong kreativitas dan pengalaman
+                            kewirausahaan mahasiswa.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             DOKUMENTASI
+        ====================================================== -->
+
+        <section class="section" id="dokumentasi">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <div class="section-index">
+                        05 / DOCUMENTATION
+                    </div>
+
+                    <div>
+
+                        <span class="kicker">
+                            OUR MOMENTS
+                        </span>
+
+                        <h2>
+                            Cerita yang tertangkap
+                            <em>dalam satu frame.</em>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="gallery">
+
+                    <button
+                        class="gallery-item large reveal"
+                        data-image="assets/assets-dokumentasi/Studi Banding.JPG"
+                        data-title="HIMATIF UNTIDAR">
+                        <img
+                            src="assets/assets-dokumentasi/Studi Banding.JPG"
+                            alt="Dokumentasi HIMATIF">          
+                    </button>
+
+                    <button
+                        class="gallery-item reveal"
+                        data-image="assets/assets-dokumentasi/Bakti Sosial.JPG"
+                        data-title="Kegiatan HIMATIF">
+                        <img
+                            src="assets/assets-dokumentasi/Bakti Sosial.JPG"
+                            alt="Kegiatan HIMATIF">
+                    </button>
+
+                    <button
+                        class="gallery-item reveal"
+                        data-image="assets/assets-dokumentasi/Sosialisasi Gemastik.png"
+                        data-title="Kolaborasi HIMATIF">
+                        <img
+                            src="assets/assets-dokumentasi/Sosialisasi Gemastik.png"
+                            alt="Kolaborasi HIMATIF">
+                    </button>
+
+                    <button
+                        class="gallery-item wide reveal"
+                        data-image="assets/assets-dokumentasi/UPGRADING.jpg"
+                        data-title="UPGRADING">
+                        <img
+                            src="assets/assets-dokumentasi/UPGRADING.jpg"
+                            alt="Dokumentasi HIMATIF">                       
+                    </button>
+
+                    <button
+                        class="gallery-item reveal"
+                        data-image="assets/assets-dokumentasi/Workshop.JPG"
+                        data-title="Community HIMATIF">
+                        <img
+                            src="assets/assets-dokumentasi/Workshop.JPG"
+                            alt="Community HIMATIF">
+                    </button>
+
+                    <button
+                        class="gallery-item wide reveal"
+                        data-image="assets/assets-dokumentasi/LKMM.jpg"
+                        data-title="Together We Grow">
+                        <img
+                            src="assets/assets-dokumentasi/LKMM.jpg"
+                            alt="Dokumentasi HIMATIF">                       
+                    </button>
+
+                    <button
+                        class="gallery-item reveal"
+                        data-image="assets/assets-dokumentasi/bultang.jpeg"
+                        data-title="Latihan Rutin">
+                        <img
+                            src="assets/assets-dokumentasi/bultang.jpeg"
+                            alt="Dokumentasi HIMATIF">   
+                    </button>
+
+                    <button
+                        class="gallery-item reveal"
+                        data-image="assets/assets-dokumentasi/PKKMB 2026.jpg"
+                        data-title="PKKMB">
+                        <img
+                            src="assets/assets-dokumentasi/PKKMB 2026.jpg"
+                            alt="Dokumentasi HIMATIF">   
+                    </button>
+                </div>
+
+
+                <div class="gallery-button">
+
+                    <a
+                        href="https://drive.google.com/drive/folders/1udUvCna9DOWhmR7fdD42QQcyXSqYFId2?usp=sharing"
+                        target="_blank"
+                        rel="noopener"
+                        class="btn secondary">
+
+                        Buka Folder Dokumentasi
+
+                        <i data-lucide="external-link"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CONTACT
+        ====================================================== -->
+
+        <section class="section contact-section" id="kontak">
+
+            <div class="container">
+
+                <div class="contact">
+
+                    <div class="contact-content">
+
+                        <span class="kicker">
+                            LET'S CONNECT
+                        </span>
+
+                        <h2>
+                            Mari tetap
+                            <em>terhubung.</em>
+                        </h2>
+
+                        <p>
+                            Temukan informasi dan aktivitas
+                            HIMATIF melalui kanal resmi.
+                        </p>
+
+                    </div>
+
+
+                    <div class="social-list">
+
+                        <a href="https://www.instagram.com/himatif.untidar" target="_blank" class="social">
+                            <div>
+                                <i data-lucide="instagram"></i>
+                            </div>
+
+                            <span>
+                                Instagram
+                            </span>
+
+                            <i data-lucide="arrow-up-right"></i>
+
+                        </a>
+
+                        <a href="https://www.youtube.com/@himatifuntidar" target="_blank" class="social">
+
+                            <div>
+                                <i data-lucide="youtube"></i>
+                            </div>
+
+                            <span>
+                                YouTube
+                            </span>
+
+                            <i data-lucide="arrow-up-right"></i>
+
+                        </a>
+
+
+                        <a
+                            href="https://ft.untidar.ac.id/kemahasiswaan/himpunan-mahasiswa/himpunan-mahasiswa-teknologi-informasi/"
+                            target="_blank"
+                            class="social">
+
+                            <div>
+                                <i data-lucide="globe"></i>
+                            </div>
+
+                            <span>
+                                Website Fakultas Teknik UNTIDAR
+                            </span>
+
+                            <i data-lucide="arrow-up-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-info">
+
+                    <div>
+
+                        <i data-lucide="map-pin"></i>
+
+                        <span>SEKRETARIAT</span>
+
+                        <p>
+                            Lobby Fakultas Teknik 01,
+                            Jl. Kapten Suparman 39,
+                            Potrobangsan, Magelang Utara,
+                            Jawa Tengah 56116.
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <i data-lucide="phone"></i>
+
+                        <span>TELEPON</span>
+
+                        <p>
+                             082325013118
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <i data-lucide="mail"></i>
+
+                        <span>FAKULTAS TEKNIK</span>
+
+                        <p>
+                            Universitas Tidar
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <div class="container footer-wrapper">
+
+            <div class="footer-brand">
+
+                <div class="logo">
+
+                    <div class="logo-box">
+                        H
+                    </div>
+
+                    <div class="logo-text">
+                        <strong>HIMATIF</strong>
+                        <span>UNTIDAR</span>
+                    </div>
+
+                </div>
+
+                <p>
+                    Himpunan Mahasiswa Teknologi Informasi
+                    Universitas Tidar.
+                </p>
+
+            </div>
+
+
+            <div class="footer-nav">
+
+                <a href="#home">Home</a>
+                <a href="#profil">Profil</a>
+                <a href="#struktur">Struktur</a>
+                <a href="#program">Program</a>
+                <a href="#dokumentasi">Dokumentasi</a>
+                <a href="#kontak">Kontak</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <span>
+                © <span id="year"></span> HIMATIF UNTIDAR
+            </span>
+
+            <span>
+                Grow Together. Create Impact.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- LIGHTBOX -->
+
+    <div class="lightbox" id="lightbox">
+
+        <button id="closeLightbox">
+            <i data-lucide="x"></i>
+        </button>
+
+        <div class="lightbox-inner">
+
+            <img id="lightboxImage" src="" alt="">
+
+            <p id="lightboxTitle"></p>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
